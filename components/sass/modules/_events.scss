@@ -1,0 +1,41 @@
+#events {
+	padding: 0;
+
+	@include clearfix;
+
+	.event {
+		position: relative;
+		@include container(100%);
+
+		@include breakpoint($small) {
+			@include span(6 of 12 0);
+		} //breakpont
+
+		.content {
+			position: absolute;
+			bottom: 0;
+			background: rgba($dark, .7);
+			padding: 30px;
+			color: $light;
+			font-weight: $thin;
+			line-height: 130%;
+			
+			h2 {
+				color: $light;
+				line-height: 1em;
+			}
+
+			p {
+				padding: 5px 0;
+			}
+
+		}
+	} //event
+
+	#businessmeetings {
+		@include backImage('http://placehold.it/400x401', to right, 0, 0, 65% top);
+	}// weddings
+	#weddings {
+		@include backImage('http://placehold.it/400x400', to left, 0, 0, 40% top);
+	}// weddings
+}//events
