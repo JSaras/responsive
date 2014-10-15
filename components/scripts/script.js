@@ -1,4 +1,5 @@
 $(function() {
+<<<<<<< HEAD
   var topoffset = 43;
 
   var isTouch = 'ontouchstart' in document.documentElement;
@@ -182,3 +183,16 @@ $(function() {
   }).setTween(attractionstween)
     .addTo(controller);
 }); //on load
+=======
+	var wheight = $(window).height(); // get window height
+
+	$(".fullheight").css('height', wheight);
+
+	$(window).resize(function() {
+		var wheight = $(window).height(); // get window height
+
+		$(".fullheight").css('height', wheight);
+
+	});
+});
+>>>>>>> jeff
