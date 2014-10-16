@@ -36,26 +36,26 @@
 	} //.room
 		
 		#piccadilly {
-			@include backImage('http://placehold.it/400x390')
+			@include backImage('../images/room1.jpeg')
 		}
 		
 		#cambridge {
-			@include backImage('http://placehold.it/400x400')
+			@include backImage('../images/room2.jpg')
 		}
 
 		#oxford {
-			@include backImage('http://placehold.it/400x390')
+			@include backImage('../images/room3.jpg')
 		}
 
 		#westminster {
-			@include backImage('http://placehold.it/400x400')
+			@include backImage('../images/room4.jpg')
 		}
 
 		#victoria{
-			@include backImage('http://placehold.it/400x390')
+			@include backImage('../images/room5.jpg')
 		}
 
 		#manchester {
-			@include backImage('http://placehold.it/400x400')
+			@include backImage('../images/room6.jpg')
 		}
 }//rooms

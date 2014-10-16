@@ -149,7 +149,7 @@ header .fullheight {
   align-items: center;
   -webkit-justify-content: center;
   justify-content: center;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../images/losangeles.jpeg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../images/london.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   -webkit-background-size: cover;
@@ -191,7 +191,6 @@ header .fullheight .hgroup p {
 /* line 37, ../../../components/sass/modules/_intro.scss */
 header .fullheight .hgroup p img {
   padding-top: 50px;
-  max-width: 50px;
 }
 
 /* line 1, ../../../components/sass/modules/_nav.scss */
@@ -816,7 +815,7 @@ header #nav .navbar ul li a.active {
 }
 /* line 38, ../../../components/sass/modules/_rooms.scss */
 #rooms #piccadilly {
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("http://placehold.it/400x390");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../images/room1.jpeg");
   background-repeat: no-repeat;
   background-position: center center;
   -webkit-background-size: cover;
@@ -826,7 +825,7 @@ header #nav .navbar ul li a.active {
 }
 /* line 42, ../../../components/sass/modules/_rooms.scss */
 #rooms #cambridge {
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("http://placehold.it/400x400");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../images/room2.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   -webkit-background-size: cover;
@@ -836,7 +835,7 @@ header #nav .navbar ul li a.active {
 }
 /* line 46, ../../../components/sass/modules/_rooms.scss */
 #rooms #oxford {
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("http://placehold.it/400x390");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../images/room3.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   -webkit-background-size: cover;
@@ -846,7 +845,7 @@ header #nav .navbar ul li a.active {
 }
 /* line 50, ../../../components/sass/modules/_rooms.scss */
 #rooms #westminster {
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("http://placehold.it/400x400");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../images/room4.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   -webkit-background-size: cover;
@@ -856,7 +855,7 @@ header #nav .navbar ul li a.active {
 }
 /* line 54, ../../../components/sass/modules/_rooms.scss */
 #rooms #victoria {
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("http://placehold.it/400x390");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../images/room5.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   -webkit-background-size: cover;
@@ -866,7 +865,7 @@ header #nav .navbar ul li a.active {
 }
 /* line 58, ../../../components/sass/modules/_rooms.scss */
 #rooms #manchester {
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("http://placehold.it/400x400");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../images/room6.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   -webkit-background-size: cover;
@@ -974,7 +973,4 @@ footer #socialmedia ul li {
 /* line 13, ../../../components/sass/modules/_footer.scss */
 footer #socialmedia ul li img {
   width: 30px;
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  border-radius: 50%;
 }
